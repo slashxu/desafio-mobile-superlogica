@@ -31,3 +31,8 @@ A ideia é bem simples, queremos um aplicativo que nos mostre todos os personage
 - Faça um fork desse repósitorio.
 - Publique o teste no expo.io e disponibilize o QRCode no README do projeto
 - Após isso, é conosco!
+
+## QRCODE
+<h3 align="center">
+<img src="./assets/qrcode_rickandmorty.PNG?raw=true" alt="img01" width="180px"/>
+</h3>

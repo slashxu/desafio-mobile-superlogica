@@ -1,5 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
+import 'react-native-gesture-handler';
 import React from 'react';
+import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import {Provider} from 'react-redux';
 
@@ -10,7 +11,7 @@ export default function App() {
   return (
     <Provider store={Store}>
     <NavigationContainer>
-      <StatusBar style="auto" />
+      <StatusBar hidden={true} />
       <MainRoute />
     </NavigationContainer>
     </Provider>
